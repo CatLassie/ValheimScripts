@@ -1,0 +1,217 @@
+(base) C:\Users\ryabc\Desktop\valheimscripts>python viking_cardio.py -d -l=66 --rested --resting -s1=33 -d1=30 -s2=23 -d2=30 -s3=18 -d3=25
+
+your supplied arguments: {'debug': True, 'lvl': 66, 'stamina1': 33, 'duration1': 30, 'stamina2': 23, 'duration2': 30, 'stamina3': 18, 'duration3': 25, 'rested': 1, 'resting': 3}
+parsed arguments: True 66 33 30 23 30 18 25 1 3
+
+running main()
+max stamina bonus of food 1: 33
+max duration of food 1: 30 min.
+max stamina bonus of food 2: 23
+max duration of food 2: 30 min.
+max stamina bonus of food 3: 18
+max duration of food 3: 25 min.
+stamina regeneration rate: 43.3 /sec.
+stamina regeneration lag: 1 sec.
+sprint stamina drain rate: 5.359999999999999 /sec.
+
+current stamina is: 124
+current sprint time is: 23.13
+current rest time is: 3.86
+
+sprinting for 23.13 seconds!
+resting for 3.86 seconds...
+
+sprinting for 23.13 seconds!
+resting for 3.86 seconds...
+
+sprinting for 23.13 seconds!
+resting for 3.86 seconds...
+
+updating stamina values
+elapsed time: 1.35 minutes
+remaining stamina/duration of
+food 1: 32.55 / 28.65
+food 2: 22.68 / 28.65
+food 3: 17.7 / 23.65
+current stamina is: 122.92999999999999
+current sprint time is: 22.93
+current rest time is: 3.84
+
+sprinting for 22.93 seconds!
+resting for 3.84 seconds...
+
+sprinting for 22.93 seconds!
+resting for 3.84 seconds...
+
+sprinting for 22.93 seconds!
+resting for 3.84 seconds...
+
+updating stamina values
+elapsed time: 2.69 minutes
+remaining stamina/duration of
+food 1: 32.08 / 27.31
+food 2: 22.36 / 27.31
+food 3: 17.4 / 22.31
+current stamina is: 121.84
+current sprint time is: 22.73
+current rest time is: 3.81
+
+sprinting for 22.73 seconds!
+resting for 3.81 seconds...
+
+sprinting for 22.73 seconds!
+resting for 3.81 seconds...
+
+sprinting for 22.73 seconds!
+resting for 3.81 seconds...
+
+updating stamina values
+elapsed time: 4.02 minutes
+remaining stamina/duration of
+food 1: 31.61 / 25.98
+food 2: 22.03 / 25.98
+food 3: 17.08 / 20.98
+current stamina is: 120.72
+current sprint time is: 22.52
+current rest time is: 3.79
+
+sprinting for 22.52 seconds!
+resting for 3.79 seconds...
+
+sprinting for 22.52 seconds!
+resting for 3.79 seconds...
+
+sprinting for 22.52 seconds!
+resting for 3.79 seconds...
+
+updating stamina values
+elapsed time: 5.34 minutes
+remaining stamina/duration of
+food 1: 31.12 / 24.66
+food 2: 21.69 / 24.66
+food 3: 16.75 / 19.66
+current stamina is: 119.56
+current sprint time is: 22.31
+current rest time is: 3.76
+
+sprinting for 22.31 seconds!
+resting for 3.76 seconds...
+
+sprinting for 22.31 seconds!
+resting for 3.76 seconds...
+
+sprinting for 22.31 seconds!
+resting for 3.76 seconds...
+
+updating stamina values
+elapsed time: 6.64 minutes
+remaining stamina/duration of
+food 1: 30.61 / 23.36
+food 2: 21.34 / 23.36
+food 3: 16.41 / 18.36
+current stamina is: 118.36
+current sprint time is: 22.08
+current rest time is: 3.73
+
+sprinting for 22.08 seconds!
+resting for 3.73 seconds...
+
+sprinting for 22.08 seconds!
+resting for 3.73 seconds...
+
+sprinting for 22.08 seconds!
+resting for 3.73 seconds...
+
+updating stamina values
+elapsed time: 7.93 minutes
+remaining stamina/duration of
+food 1: 30.1 / 22.07
+food 2: 20.98 / 22.07
+food 3: 16.05 / 17.07
+current stamina is: 117.13
+current sprint time is: 21.85
+current rest time is: 3.71
+
+sprinting for 21.85 seconds!
+resting for 3.71 seconds...
+
+sprinting for 21.85 seconds!
+resting for 3.71 seconds...
+
+sprinting for 21.85 seconds!
+resting for 3.71 seconds...
+
+updating stamina values
+elapsed time: 9.21 minutes
+remaining stamina/duration of
+food 1: 29.56 / 20.79
+food 2: 20.6 / 20.79
+food 3: 15.68 / 15.79
+current stamina is: 115.84
+current sprint time is: 21.61
+current rest time is: 3.68
+
+sprinting for 21.61 seconds!
+resting for 3.68 seconds...
+
+sprinting for 21.61 seconds!
+resting for 3.68 seconds...
+
+sprinting for 21.61 seconds!
+resting for 3.68 seconds...
+
+updating stamina values
+elapsed time: 10.48 minutes
+remaining stamina/duration of
+food 1: 29.01 / 19.52
+food 2: 20.22 / 19.52
+food 3: 15.29 / 14.52
+current stamina is: 114.52000000000001
+current sprint time is: 21.37
+current rest time is: 3.64
+
+sprinting for 21.37 seconds!
+resting for 3.64 seconds...
+
+sprinting for 21.37 seconds!
+resting for 3.64 seconds...
+
+sprinting for 21.37 seconds!
+resting for 3.64 seconds...
+
+updating stamina values
+elapsed time: 11.73 minutes
+remaining stamina/duration of
+food 1: 28.44 / 18.27
+food 2: 19.82 / 18.27
+food 3: 14.89 / 13.27
+current stamina is: 113.14999999999999
+current sprint time is: 21.11
+current rest time is: 3.61
+
+sprinting for 21.11 seconds!
+resting for 3.61 seconds...
+
+sprinting for 21.11 seconds!
+resting for 3.61 seconds...
+
+sprinting for 21.11 seconds!
+resting for 3.61 seconds...
+
+updating stamina values
+elapsed time: 12.97 minutes
+remaining stamina/duration of
+food 1: 27.84 / 17.03
+food 2: 19.41 / 17.03
+food 3: 14.45 / 12.03
+current stamina is: 111.7
+current sprint time is: 20.84
+current rest time is: 3.58
+
+sprinting for 20.84 seconds!
+resting for 3.58 seconds...
+
+sprinting for 20.84 seconds!
+resting for 3.58 seconds...
+
+sprinting for 20.84 seconds!
