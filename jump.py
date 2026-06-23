@@ -10,7 +10,11 @@ while True:
 
 	try:
 
-		keyboard.press_and_release('space')
+		# keyboard.press_and_release('space')
+
+		keyboard.press("space")
+		time.sleep(0.15)
+		keyboard.release("space")
 
 		print('jump')
 
