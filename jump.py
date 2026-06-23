@@ -18,7 +18,7 @@ while True:
 
 		print('jump')
 
-		time.sleep(1.33)
+		time.sleep(1.66)
   
 	except:
 
