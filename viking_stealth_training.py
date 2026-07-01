@@ -88,13 +88,30 @@ def main():
     stealth_training_start = time.time()
     one_min_start = time.time()
 
+    # countdown
+    print("\npreparing for viking stealth training in...")
+    for i in range(5, 0, -1):
+        print(i)
+        time.sleep(1)
+
     ######## main loop ########
 
     while ((time.time() - stealth_training_start) / 60) < longest_foor_duration:
         keyboard.press('ctrl')
+        time.sleep(0.15)
+        keyboard.release('ctrl')
+        time.sleep(0.15)
+        keyboard.press('w')
+
         print('\nsneaking for', sneak_time, 'seconds!')
         time.sleep(sneak_time)
+
+        keyboard.release('w')
+        time.sleep(0.15)
+        keyboard.press('ctrl')
+        time.sleep(0.15)
         keyboard.release('ctrl')
+
         print('resting for', rest_time, 'seconds...')
         time.sleep(rest_time)
 
