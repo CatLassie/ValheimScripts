@@ -91,16 +91,12 @@ def main():
     ######## main loop ########
 
     while ((time.time() - stealth_training_start) / 60) < longest_foor_duration:
-        try:
-            keyboard.press('ctrl')
-            print('\nsneaking for', sneak_time, 'seconds!')
-            time.sleep(sneak_time)
-            keyboard.release('ctrl')
-            print('resting for', rest_time, 'seconds...')
-            time.sleep(rest_time)
-        except:
-            if debug:
-                print('Exception caught!')
+        keyboard.press('ctrl')
+        print('\nsneaking for', sneak_time, 'seconds!')
+        time.sleep(sneak_time)
+        keyboard.release('ctrl')
+        print('resting for', rest_time, 'seconds...')
+        time.sleep(rest_time)
 
         current_time = time.time()
         one_min_interval = current_time - one_min_start

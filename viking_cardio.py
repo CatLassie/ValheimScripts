@@ -91,16 +91,12 @@ def main():
     ######## main loop ########
 
     while ((time.time() - cardio_start) / 60) < longest_foor_duration:
-        try:
-            keyboard.press('shift')
-            print('\nsprinting for', sprint_time, 'seconds!')
-            time.sleep(sprint_time)
-            keyboard.release('shift')
-            print('resting for', rest_time, 'seconds...')
-            time.sleep(rest_time)
-        except:
-            if debug:
-                print('Exception caught!')
+        keyboard.press('shift')
+        print('\nsprinting for', sprint_time, 'seconds!')
+        time.sleep(sprint_time)
+        keyboard.release('shift')
+        print('resting for', rest_time, 'seconds...')
+        time.sleep(rest_time)
 
         current_time = time.time()
         one_min_interval = current_time - one_min_start
